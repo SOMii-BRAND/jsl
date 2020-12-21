@@ -195,8 +195,8 @@ logo2 = """
                                                 
 \033[1;97m---------------------SOMI--------------------
 """
-CorrectUsername = "Somi"
-CorrectPassword = "Awan"
+CorrectUsername = "hakam"
+CorrectPassword = "hakam"
 
 loop = 'true'
 while (loop == 'true'):
