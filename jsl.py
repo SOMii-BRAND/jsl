@@ -7,7 +7,7 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from jsl mport main
+    from jsl import main
     main()
 elif bit == '32bit':
     from jsl import main
