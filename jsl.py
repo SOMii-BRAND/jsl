@@ -7,8 +7,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from jsl import main
+    from mx import main
     main()
 elif bit == '32bit':
-    from jsl import main
+    from mx import main
     main()
