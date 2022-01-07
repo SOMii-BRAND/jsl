@@ -6,8 +6,8 @@ if __name__ == "__main__":
 			exit(" [!] Succesfull Deleted")
 		else:
 			print(" [?] Wellcome : ")
-			exit(" [!] Run : python Filepro.py remove")
+			exit(" [!] Run : python Jsl.py remove")
 	try:
-		__import__("Dumping").__main_James()
+		__import__("main").__main_Somi()
 	except Exception as e:
 		exit(str(e))
