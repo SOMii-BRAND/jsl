@@ -8,6 +8,6 @@ if __name__ == "__main__":
 			print(" [?] Wellcome : ")
 			exit(" [!] Run : python Jsl.py remove")
 	try:
-		__import__("main").__main_Somi()
+		__import__("es").__main_Somi()
 	except Exception as e:
 		exit(str(e))
