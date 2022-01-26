@@ -7,8 +7,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from xjsl import somi_code
-    somi_code()
+    from xjsl import __start__
+    __start__()
 elif bit == '32bit':
-    from xjsl import somi_code
-    somi_code()
+    from xjsl import __start__
+    __start__()
