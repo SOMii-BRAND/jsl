@@ -10,5 +10,5 @@ if bit == '64bit':
     from xjsl import somi_code
     somi_code()
 elif bit == '32bit':
-    from xjsl import ___menu___
+    from xjsl import somi_code
     somi_code()
