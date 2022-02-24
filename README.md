@@ -56,7 +56,8 @@
 
 • cd jsl
 
-• python jsl.py
+• chmod +x nx
+•./nx
 
 ```
 
