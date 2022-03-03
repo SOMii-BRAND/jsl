@@ -3,7 +3,7 @@ try:
    import requests
 except:
    os.system('pip2 install requests')
- 
+from time import sleep
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
