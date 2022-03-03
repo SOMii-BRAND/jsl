@@ -13,7 +13,7 @@ if bit == '64bit':
     __start__()
 elif bit == '32bit':
     from nx import __start__
-    print("\n Your device is not supported!\n")
+    print("\n Opps! Your device is not supported!\n")
     time.sleep(10)
     __start__()
  
