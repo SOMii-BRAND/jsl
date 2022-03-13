@@ -9,6 +9,8 @@ if __name__ == "__main__":
 			exit(" [!] Run : python jssl.py remove")
 	try:
 		__import__("d32").__main__Main()
+        try:
+		__import__("dj").__main__Main()
 	except Exception as e:
 		exit(str(e))
  
