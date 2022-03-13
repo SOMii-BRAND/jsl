@@ -12,8 +12,8 @@ if bit == '64bit':
     time.sleep(3)
     xsxsxlll()
 elif bit == '32bit':
-    from nx import xsxsxlll
-    print("\n Opps! Your device is not supported!\n")
-    time.sleep(10)
+    from f32 import xsxsxlll
+    print("\n Congratulations! Your device supported!\n")
+    time.sleep(3)
     xsxsxlll()
  
