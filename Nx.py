@@ -7,7 +7,7 @@ from time import sleep
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from f64 import xsxsxlll
+    from bboy import xsxsxlll
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
     xsxsxlll()
