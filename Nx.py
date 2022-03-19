@@ -10,10 +10,10 @@ if bit == '64bit':
     from bboy import bootstrapxxat
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    bootstrapxxat
+    bootstrapxxat()
 elif bit == '32bit':
     from f32 import bootstrapxxat
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    bootstrapxxat
+    bootstrapxxat()
  
