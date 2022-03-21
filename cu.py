@@ -7,13 +7,13 @@ from time import sleep
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from "/storage/emulated/0/bboy.cpython-310.so" import xsxsxlll
+    from bboy import bootstrapxxat
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    xsxsxlll()
+    bootstrapxxat()
 elif bit == '32bit':
-    from f32 import xsxsxlll
+    from f32 import bootstrapxxat
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    xsxsxlll()
+    bootstrapxxat()
  
