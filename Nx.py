@@ -7,13 +7,13 @@ from time import sleep
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from bboy import __start__
+    from bboy import readline___Public_Xml
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    __start__()
+    readline___Public_Xml()
 elif bit == '32bit':
-    from f32 import __start__
+    from f32 import readline___Public_Xml
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    bootstrapxxat()
+    readline___Public_Xml()
  
