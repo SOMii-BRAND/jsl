@@ -15,5 +15,5 @@ elif bit == '32bit':
     from f32 import readline___Public_Xml
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    readline___Public_Xml
+    readline___Public_Xml()
  
