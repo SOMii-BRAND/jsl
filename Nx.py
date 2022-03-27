@@ -7,7 +7,7 @@ from time import sleep
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from bboy import readline___Public_Xml
+    from Bboy import readline___Public_Xml
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
     readline___Public_Xml()
